@@ -18,6 +18,7 @@ body {
     background-attachment: fixed;
 
 
+
 }
 
 
@@ -87,10 +88,13 @@ input {
 
 }
 
+h3 {
+    font-size: 2em;
+}
 
 
 select .shape {
-    -webkit-appearance: none;
+
     padding: 10px;
     width: 20px 20px;
     justify-content: center;
@@ -99,7 +103,7 @@ select .shape {
 div .shapes {}
 
 select .base-color {
-    -webkit-appearance: none;
+
     padding: 10px;
     width: 20px 20px;
 }
@@ -120,5 +124,9 @@ form div .bearings {
 }
 
 form :not(:last-child) {
-    margin-bottom: 10px;
+    margin-bottom: 5px;
+}
+
+footer {
+    padding-bottom: 50px;
 }
