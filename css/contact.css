@@ -1,0 +1,134 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto Slab", serif;
+    font-size: 1.5em;
+    justify-content: center;
+    background: url(../images/kala.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+    padding-bottom: 50px;
+
+}
+
+img {
+    width: 100%;
+    display: block;
+}
+
+header {
+
+
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+form {
+
+    margin: 0 auto;
+    width: 400px;
+    padding: 1em;
+    padding-top: 60px;
+    border-radius: 1em;
+}
+
+
+
+h1,
+h2 {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+    text-transform: uppercase;
+    text-align: center;
+
+    padding-top: 60px;
+    color: white;
+}
+
+nav ul {
+    font-size: 1.5em;
+    text-align: center;
+    word-spacing: 80px;
+    margin-top: 30px;
+
+
+
+}
+
+nav li {
+    display: inline;
+    justify-items: center;
+
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    color: white;
+}
+
+a {
+    color: white;
+}
+
+form li+li {
+    margin-top: 1.5em;
+    color: white
+}
+
+label {
+    /* Tamaño y alineación uniforme */
+    display: inline-block;
+    width: 90px;
+    text-align: right;
+}
+
+input,
+textarea {
+    /* Para asegurarse de que todos los campos de texto tienen la misma configuración de letra
+       Por defecto, las áreas de texto tienen un tipo de letra monoespaciada */
+    font: 1.5em sans-serif;
+
+    /* Tamaño uniforme del campo de texto */
+    width: 300px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    /* Hacer coincidir los bordes del campo del formulario */
+    border: 1px solid #999;
+}
+
+input:focus,
+textarea:focus {
+    /* Destacado adicional para elementos que tienen el cursor */
+    border-color: #000;
+}
+
+textarea {
+    /* Alinear los campos de texto multilínea con sus etiquetas */
+    vertical-align: top;
+
+    /* Proporcionar espacio para escribir texto */
+    height: 5em;
+}
+
+.button {
+    /* Alinear los botones con los campos de texto */
+    padding-left: 100px;
+    /* mismo tamaño que los elementos de la etiqueta */
+
+}
+
+button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+    margin-left: 33em;
+    width: 100px;
+
+}

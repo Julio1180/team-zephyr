@@ -1,0 +1,180 @@
+* {
+    margin: 0;
+    padding: 0;
+
+}
+
+body {
+
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 100px;
+    padding: 20px 50px;
+    background: url(../images/zephyr-3-.jpg) no-repeat center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+a {
+    color: white;
+}
+
+header {
+    padding-top: 5px;
+    padding-left: 5px;
+    padding-bottom: 5px;
+    padding-right: 5px;
+}
+
+
+
+nav menu {
+    align-items: center;
+    width: 100%;
+    text-align: right;
+}
+
+
+h1,
+h2 {
+    font-size: 2em;
+    font-weight: bold;
+    line-height: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    color: black;
+    padding: 1px;
+}
+
+button {
+    font-size: 1.5em;
+    font-weight: bold;
+    line-height: 2em;
+    text-transform: uppercase;
+    text-align: center;
+    background-color: rgb(242, 194, 165);
+    color: black;
+    padding: 1px;
+}
+
+p {
+    text-align: justify;
+    letter-spacing: 0.1em;
+    line-height: 2em;
+    color: white;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+    word-spacing: 100px;
+    margin-top: 30px;
+}
+
+nav li {
+    display: inline;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    padding-left: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+
+
+div .photo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+.img {
+    width: 575px;
+    height: 575px;
+    object-fit: cover;
+
+}
+
+.nuevo {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+section {
+    height: 100vh;
+    display: flex;
+    align-content: center;
+}
+
+.contenedor {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contenido {
+    width: 70%;
+}
+
+.contenedor h2 {
+    font-size: 2em;
+}
+
+.contenido p {
+    font-size: 1.2em;
+    margin-top: 20px;
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.contenedor img {
+    display: flex;
+    justify-content: center;
+    width: 110%;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+    padding-top: 30px;
+}
+
+.seccion-intermedia {
+    width: 100px;
+    height: 150vh;
+    display: flex;
+    flex-wrap: wrap;
+    color: aquamarine;
+
+
+}
+
+h4 {
+    display: flex;
+    font-size: 6em;
+    padding-left: 100px;
+}
+
+.tarjeta_cabecera {
+    display: flex;
+    flex-direction: row-reverse;
+    padding: 50px;
+}
+
+.tarjeta_cabecera {
+    color: aquamarine;
+}
+
+.tarjeta_contenido {
+    padding-bottom: 100px;
+}

@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+
+    font-family: "Roboto Slab", serif;
+    font-size: 20px;
+    font-weight: 300;
+    padding-top: 100px;
+    padding: 20px 50px;
+    background-color: rgb(252, 249, 245);
+}
+
+
+
+header {
+
+    color: rgb(255, 255, 255);
+    padding-top: 20px;
+    padding-left: 0;
+    padding-bottom: 20px;
+    padding-right: 0;
+
+
+}
+
+
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 10px;
+    overflow: hidden;
+    background-color: black;
+    position: fixed;
+    width: 90.7%;
+    bottom: 0;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    width: auto;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: grey;
+}
+
+div .photo {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-wrap: wrap;
+}
+
+img {
+    width: 575px;
+    height: 575px;
+    object-fit: cover;
+
+}
+
+
+
+.contenedor {
+    width: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.contenido {
+    width: 70%;
+}
+
+
+
+h1 {
+    font-size: 4em;
+    font-weight: bold;
+    line-height: 2em;
+    text-align: center;
+    color: black;
+    padding: 1px;
+}
+
+.contenedor h2 {
+    font-size: 2em;
+}
+
+.contenido p {
+
+    font-size: 1.1em;
+    margin-top: 20px;
+    margin-right: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.contenedor img {
+    display: flex;
+
+    justify-content: center;
+    width: 50%;
+    height: 70vh;
+    object-fit: cover;
+    object-position: center;
+    padding-top: 30px;
+}
+
+.principal h2 {
+    font-size: 2em;
+    display: flex;
+    color: white;
+    position: absolute;
+    margin: 50px 50px;
+    padding: 15px 15px;
+    font-weight: normal;
+}
+
+.principal button {
+    display: flex;
+    font-size: 1em;
+    color: black;
+    margin: 10px;
+    padding: 10px;
+    position: absolute;
+    font-weight: normal;
+}
