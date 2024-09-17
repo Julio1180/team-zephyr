@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
 </head>
 
 <body>
@@ -57,6 +58,15 @@
 
                 </div>
                 <div class="trucks">
+                    <h2>Upload Graphics</h2>
+                    <form method="post" action="/send/" enctype="multipart/form-data">
+                        <input type="file">
+                    </form>
+
+                    <form method="post" action="/send/">
+                        <div>
+                            <textarea name="text" cols="32" rows="10" placeholder="Comments or Questions..."></textarea>
+                    </form>
                     <h3>Choose your trucks</h3>
                     <label for=""><input type="checkbox" name="trucks" value="1" checked> Independent</label>
                     <label for=""><input type="checkbox" name="trucks" value="2"> Indy-hollow</label>
@@ -95,11 +105,13 @@
                 </div>
                 <input type="submit" name="enviar">
             </div>
+
         </form>
 
     </div>
     <div class="socials">
         <h2>Follow us on social</h2>
+        <i class="fa-brands fa-instagram"></i>
         <div>
             <a href="https://www.instagram.com/dogtownskate/"></a>
             <a href="https://www.youtube.com/@dogtownsuicidal1976"></a>
