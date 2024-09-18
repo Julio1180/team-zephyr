@@ -140,3 +140,23 @@ button {
     width: 100px;
 
 }
+
+.redes {
+    right: 30px;
+}
+
+.fa-facebook {
+    background: #1877f2;
+}
+
+.fa-twitter {
+    background: #1da1f2;
+}
+
+.fa-instagram {
+    background: #c32aa3;
+}
+
+.fa-youtube {
+    background: #ff0000;
+}
