@@ -142,7 +142,7 @@ button {
 }
 
 .redes {
-    right: 30px;
+    padding: 30px;
 }
 
 .fa-facebook {
@@ -159,4 +159,8 @@ button {
 
 .fa-youtube {
     background: #ff0000;
+}
+
+footer {
+    padding: 20px;
 }

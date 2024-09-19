@@ -142,3 +142,7 @@ h1 {
     position: absolute;
     font-weight: normal;
 }
+
+footer {
+    padding: 20px;
+}
